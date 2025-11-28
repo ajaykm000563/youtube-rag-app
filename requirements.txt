@@ -10,6 +10,7 @@ requests
 langchain
 langchain-community
 langchain-huggingface
+sentence-transformers
 
 # Hugging Face Hub
 huggingface_hub
