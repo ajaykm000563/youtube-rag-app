@@ -1,0 +1,19 @@
+streamlit
+yt-dlp
+youtube-transcript-api==0.6.2
+tiktoken
+python-dotenv
+faiss-cpu
+requests
+
+# LangChain Core + Integrations
+langchain
+langchain-community
+langchain-huggingface
+
+# Hugging Face Hub
+huggingface_hub
+
+# Utilities
+numpy
+pydantic
