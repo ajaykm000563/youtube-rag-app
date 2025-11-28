@@ -53,7 +53,6 @@ def Use_Rag_System(vector_store: FAISS, question: str) -> str:
     llm = HuggingFaceEndpoint(
         repo_id="openai/gpt-oss-20b",
         task="text-generation",
-        max_new_tokens=256,
         huggingfacehub_api_token=hf_token,  # ✅ NEW
     )
     model = ChatHuggingFace(llm=llm, temperature=0.0)
